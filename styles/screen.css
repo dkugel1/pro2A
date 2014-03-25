@@ -1,0 +1,170 @@
+body {
+	margin-left: 20px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+}
+
+a {
+    color: #4582B4;
+}
+
+a:hover {
+    color: #cd5c5c;
+}
+
+h1, h2, h3 {
+	color: #330066;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 1.2em;
+	background: Silver;
+	padding: 10px;
+}
+
+h2 {
+	font-size: 1em;
+}
+
+h3 {
+	font-size: 0.8em;
+}
+
+form {
+ 	width: 600px;
+}
+
+fieldset
+{
+	margin-bottom: 10px;
+	border: #CCC 1px solid;
+}
+
+fieldset legend
+{
+	padding: 0 10px 0 10px;
+	color: #666;
+}
+
+fieldset:hover
+{
+	border-color: #666;
+}
+
+label {
+	color: Gray;
+	width: 90px;
+}
+
+/* styles modifiés pour mission 5 */
+/*
+label.form {
+ 	display: block;
+	float: left;
+	margin-left: 10px;
+}
+*/
+label.form , label.formError{
+ 	display: block;
+	max-width: 160px;
+	float: left;
+	margin-left: 10px;
+}
+
+label.formError{
+	color: red;
+}
+/* fin modification styles pour mission 5 */
+
+label.radio {
+ 	display: inline;
+}
+
+label:hover {
+	color: #330066;
+}
+
+input[type=radio], input[type=text], input[type=checkbox], select, option, textarea {
+	margin-left: 30px;
+}
+
+input[type=submit], input[type=reset] {
+	margin-top: 15px;
+	width: 120px;
+	cursor: pointer;
+}
+
+input[type=submit] {
+	margin-left: 120px;
+}
+
+.erreur {
+	color: red;
+	display: block;
+	margin-bottom: 5px; 	
+}
+
+/* styles pour gestion des types de projet */
+
+#objectList {
+	margin : 10px 0 10px 0;
+	float: left;
+}
+
+#objectList select {
+	margin-left: 10px;
+	width: 250px;
+}
+
+#crudButtons {
+	margin: 10px 0 0 0;
+}
+
+#crudButtons input[type=submit] {
+	margin-top: 1px;
+	margin-left: 10px;
+}
+
+span.readOnly {
+	margin-left: 30px;
+}
+
+#okCancelButtons {
+	margin-left: 5px;
+}
+
+#okCancelButtons input[type=submit] {
+	margin-left: 5px;
+}
+
+/* styles pour mission 4 */
+
+#Header {
+	margin: 5px 0 25px 5px;
+}
+
+#Menu {
+	width: 200px;
+	margin-left: 5px;
+	float: left;	
+}
+
+#Content {
+	margin-left: 200px;	
+}
+ 
+
+#Footer {
+	clear: both;
+	margin: 25px 0 0 5px;
+	color: #6699cc;	
+}
+
+.titreEntete {
+	font-weight: bold;
+	font-size: larger;
+	color: #6699cc;
+}
+
+
